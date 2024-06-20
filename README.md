@@ -26,7 +26,7 @@ ___
 
 #### Must Have:
 
-- [x] Fetch JSON file from star wars API
+- [x] Fetch JSON file from star wars API (https://akabab.github.io/starwars-api/)
 - [x] Display detailed profiles for each character, including wiki.
 - [x] Enable users to pick or search.
 - [x] Showcase an images for each character.

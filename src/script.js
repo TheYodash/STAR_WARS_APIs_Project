@@ -94,6 +94,8 @@ async function displayCharacters(characters) {
         const cardImage = document.createElement('img');
         cardImage.src = character.image;
         cardImage.alt = character.name;
+        cardImage.style.borderRadius = '20%';
+        cardImage.style.border = '10px solid black';
         card.appendChild(cardImage);
 
         const cardTitle = document.createElement('h2');
