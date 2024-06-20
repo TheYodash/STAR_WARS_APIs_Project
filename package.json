@@ -1,0 +1,12 @@
+{
+  "name": "star_wars_apis_project",
+  "version": "1.0.0",
+  "description": "Star Wars Encyclopedia App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
