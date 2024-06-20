@@ -2,7 +2,7 @@
 Star Wars Encyclopedia App
 ___
 ## Project description:
-The Star Wars Characters Encyclopedia App is a web application that utilizes APIs to provide users with a comprehensive database of characters from the Star Wars universe. With this app, users can explore and discover information about their favorite characters, including their backstories, abilities, and affiliations. The app allows users to search for specific characters, view detailed profiles, and even bookmark their favorite entries for easy access. Whether you're a die-hard Star Wars fan or just getting started, the Star Wars Characters Encyclopedia App is the ultimate resource for all things related to the iconic characters of the Star Wars saga.
+The Star Wars Characters Encyclopedia App is a web application that utilizes APIs to provide users with a comprehensive database of characters from the Star Wars universe. With this app, users can explore and discover information about their favorite characters, including their backstories, homeland, and affiliations. The app allows users to search for specific characters, and view detailed profiles. Whether you're a die-hard Star Wars fan or just getting started, the Star Wars Characters Encyclopedia App is the ultimate resource for all things related to the iconic characters of the Star Wars saga.
 ___
 ## Project Functionalities:
 
@@ -13,7 +13,6 @@ ___
 3. Bookmarking: Enable users to bookmark their favorite characters for easy access.
 
 4. Wiki Page: Showcase a collection of information for each character, allowing users to explore their back stories.
-
 
 5. Random Character Generator: Generate random Star Wars characters for users to explore and learn about.
 
