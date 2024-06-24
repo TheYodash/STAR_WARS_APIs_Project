@@ -10,15 +10,13 @@ ___
 
 2. Detailed Profiles: Display detailed profiles for each character, including their homeland, Species, and affiliations.
 
-3. Bookmarking: Enable users to bookmark their favorite characters for easy access.
+3. Wiki Page: Showcase a collection of information for each character, allowing users to explore their back stories.
 
-4. Wiki Page: Showcase a collection of information for each character, allowing users to explore their back stories.
+4. Random Character Generator: Generate random Star Wars characters for users to explore and learn about.
 
-5. Random Character Generator: Generate random Star Wars characters for users to explore and learn about.
+5. Responsive Design: Ensure the app is responsive and accessible across various devices and screen sizes.
 
-6. Responsive Design: Ensure the app is responsive and accessible across various devices and screen sizes.
-
-7. Error Handling: Implement robust error handling to gracefully handle cases such as invalid input or failed API requests.
+6. Error Handling: Implement robust error handling to gracefully handle cases such as invalid input or failed API requests.
 
 ___
 ### To-Do List
@@ -30,8 +28,8 @@ ___
 - [x] Enable users to pick or search.
 - [x] Showcase an image for each character.
 - [ ] Implement error handling to handle cases such as invalid input or failed API requests.
-- [ ] Show the characters in the card
-- [ ] Make the page graphically appealing
+- [x] Show the characters in the card
+- [x] Make the page graphically appealing
 
 #### Should Have:
 
