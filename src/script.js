@@ -1,6 +1,7 @@
 'use strict';
 
 import { STAR_WARS_API_URL } from './constants.js';
+import { ERROR_MESSAGE } from './constants.js';
 
 async function fetchJSON(url) {
     try
@@ -24,7 +25,7 @@ function handleFetchError(error) {
     console.error(error);
     const errorMessage = document.createElement('div');
     errorMessage.className = 'error-message';
-    errorMessage.textContent = 'Failed to fetch data. Please try again later.';
+    errorMessage.textContent = ERROR_MESSAGE;
     document.body.innerHTML = '';
     document.body.appendChild(errorMessage); 
 }

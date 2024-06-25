@@ -5,7 +5,7 @@
 /* Style for header */
 .header {
     height: 50px;
-    font-size: 32px;
+    font-size: 3rem;
     font-family: 'Death Star', sans-serif;
     background-color: #1c2020;
     color: #FFE81F;
@@ -14,6 +14,7 @@
     text-align: center;
     line-height: 50px;
 }
+
 
 /* Style for body */
 body {
@@ -198,3 +199,89 @@ body {
     text-align: center;
     line-height: 50px;
   }
+
+
+
+  /* Style for smaller screens */
+  @media screen and (max-width: 1050px) {
+    .header {
+        font-size: 1.5rem;
+    }
+
+    .search-container {
+        width: 50%;
+    }
+
+    .search-input {
+        width: 95%;
+    }
+
+    .action-button {
+        width: 100%;
+    }
+
+    .surprise-button {
+        width: 50%;
+    }
+
+
+    .card {
+        width: auto%;
+    }
+
+    .card img {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: auto;
+    }
+
+
+    .information-card {
+        width: 80%;
+    }
+
+}
+
+    @media screen and (max-width: 600px) {
+        .header {
+            font-size: 1rem;
+        }
+        .search-container {
+            width: 80%;
+        }
+
+        .search-input {
+            width: 95%;
+        }
+
+        .action-button {
+            width: 100%;
+        }
+
+        .surprise-button {
+            width: 80%;
+        }
+    
+        .card-container {
+            display: block;
+        }
+    
+        .card {
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: auto;
+        }
+    
+        .information-card {
+            width: 80%;
+        }
+    }
+
