@@ -226,7 +226,7 @@ body {
 
 
     .card {
-        width: auto%;
+        width: auto;
     }
 
     .card img {
@@ -243,13 +243,13 @@ body {
 
 }
 
-    @media screen and (max-width: 600px) {
-        .header {
-            font-size: 1rem;
-        }
-        .search-container {
-            width: 80%;
-        }
+@media screen and (max-width: 600px) {
+    .header {
+        font-size: 1rem;
+    }
+    .search-container {
+        width: 80%;
+    }
 
         .search-input {
             width: 95%;
