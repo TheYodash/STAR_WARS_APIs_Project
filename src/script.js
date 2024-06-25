@@ -110,6 +110,7 @@ async function showCharacterInfo(selectedCharacterId) {
     const age = Math.abs(characterInfo.born) + characterInfo.died ? `${Math.abs(characterInfo.born - characterInfo.died)} Years` : 'Unknown';
     const hairColor = characterInfo.hairColor ? characterInfo.hairColor : 'Unknown';
     const skinColor = characterInfo.skinColor ? characterInfo.skinColor : 'Unknown';
+    const weight = characterInfo.mass ? `${characterInfo.mass} KG` : 'Unknown';
     const characterCard = document.createElement('div');
     characterCard.id = 'character-card';
     characterCard.className = 'information-card';
@@ -118,7 +119,7 @@ async function showCharacterInfo(selectedCharacterId) {
         <h2>${characterInfo.name}</h2>
         <img src="${characterInfo.image}" alt="${characterInfo.name}" />
         <p>Height: ${characterInfo.height} m</p>
-        <p>Weight: ${characterInfo.mass} kg</p>
+        <p>Weight: ${weight}</p>
         <p>Hair Color: ${hairColor}</p>
         <p>Skin Color: ${skinColor}</p>
         <p>Eye Color: ${characterInfo.eyeColor}</p>
@@ -153,9 +154,5 @@ async function main() {
     createCharacterSearch(characters);
     showRandomCharacterInfo(characters);
     displayCharacters(characters);
-    const characterSelect = createCharacterSelect(characters);
-    characterSelect.addEventListener('change', async (event) => {
-        await showCharacterInfo(event.target.value);
-    });
 }
 window.addEventListener('load', main);
