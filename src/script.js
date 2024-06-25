@@ -11,13 +11,22 @@ async function fetchJSON(url) {
         }
         return await response.json();
     } catch (err) {
-            console.error(err);
+            handleFetchError(err);
     }
 }
 
 async function getStarWarsData() {
     const starWarsData = await fetchJSON(STAR_WARS_API_URL);
     return starWarsData;
+}
+
+function handleFetchError(error) {
+    console.error(error);
+    const errorMessage = document.createElement('div');
+    errorMessage.className = 'error-message';
+    errorMessage.textContent = 'Failed to fetch data. Please try again later.';
+    document.body.innerHTML = '';
+    document.body.appendChild(errorMessage); 
 }
 
 // setting timeout for search so it will not search for every key press
@@ -150,9 +159,13 @@ async function showCharacterInfo(selectedCharacterId) {
 }
   
 async function main() {
-    const characters = await getStarWarsData();
-    createCharacterSearch(characters);
-    showRandomCharacterInfo(characters);
-    displayCharacters(characters);
+    try {
+        const characters = await getStarWarsData();
+        createCharacterSearch(characters);
+        showRandomCharacterInfo(characters);
+        displayCharacters(characters);
+    } catch (error) {
+        handleFetchError(error);
+    }
 }
 window.addEventListener('load', main);
