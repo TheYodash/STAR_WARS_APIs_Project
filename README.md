@@ -27,16 +27,16 @@ ___
 - [x] Display detailed profiles for each character, including wiki.
 - [x] Enable users to pick or search.
 - [x] Showcase an image for each character.
-- [ ] Implement error handling to handle cases such as invalid input or failed API requests.
+- [x] Implement error handling to handle cases such as invalid input or failed API requests.
 - [x] Show the characters in the card
 - [x] Make the page graphically appealing
 
 #### Should Have:
 
 - [x] Generate random Star Wars characters for users to explore and learn about.
-- [ ] Enable users to bookmark their favourite characters for easy access.
 
 #### Could Have:
+- [ ] Enable users to bookmark their favourite characters for easy access.
 - [ ] Implement additional filters for character search, such as species, affiliations, or abilities.
 - [ ] Allow users to rate characters
 - [ ] Allow users to favourite characters.
