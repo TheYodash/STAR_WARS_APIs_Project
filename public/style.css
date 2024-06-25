@@ -41,6 +41,167 @@ body {
 
 }
 
+/* Style for the search container */
 
+.search-container {
+    display: block;
+    padding: 10px;
+    width: 15%;
+    margin: auto;
+  }
 
+  /* Style for the search input */
 
+.search-input {
+    width: 92%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+/* Style for the action button */
+
+.action-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #1c2020;
+    color: #FFE81F;
+    cursor: pointer;
+  }
+
+/* Style for the surprise button */
+
+.surprise-button {
+    display: block;
+    width: 15%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #1c2020;
+    color: #FFE81F;
+    cursor: pointer;
+  }
+
+/* styles for character cards */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2px;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #381010;
+
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: #FFE81F;
+    text-align: center;
+    font-family: 'Death Star', sans-serif;
+    letter-spacing: 3px;
+}
+
+.card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #1c2020;
+    color: #FFE81F;
+    cursor: pointer;
+  }
+
+/* styles for the character information-card */
+
+.information-card {
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    max-height: 80%;
+    transform: translate(-50%, -50%);
+    background-color: #1c2020;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    }
+
+.information-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    border: 5px solid #ccc;
+
+}
+
+.information-card h2 {
+    font-size: 20px;
+    color: #FFE81F;
+    text-align: center;
+    font-family: 'Death Star', sans-serif;
+    letter-spacing: 3px;
+}
+
+.information-card p {
+    font-size: 16px;
+    color: #eae4ae;
+    text-align: center;
+    font-family: 'Death Star', sans-serif;
+    letter-spacing: 3px;
+}
+
+.information-card a {
+    font-size: 16px;
+    color: #FFE81F;
+    text-align: center;
+    font-family: 'Death Star', sans-serif;
+    letter-spacing: 3px;
+}
+
+.information-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #1c2020;
+    color: #FFE81F;
+    cursor: pointer;
+  }
